@@ -11,24 +11,14 @@ export const Education = () => {
   const educations = [
     {
       id: 1,
-      image: 'https://ubi.edu/wp-content/uploads/2025/01/boston-university-logo.png',
-      name: 'Boston University',
-      position: 'Master Of Science Computer Information System',
-      startDate: 'October 2024',
-      endDate: 'May 2026',
-      duration: '2 years',
-      location: 'Boston, MA',
+      image: '/vite.svg',
+      name: 'IPB University',
+      position: 'Bachelor Engineering',
+      startDate: 'Jan 2017',
+      endDate: 'Jan 2021',
+      duration: '4 years',
+      location: 'Bogor',
     },
-    {
-      id: 2,
-      image: 'https://www.elms.edu/wp-content/uploads/2019/07/Elms-Standard-Logo-green-with-white-background.jpg',
-      name: 'Elms College',
-      position: 'BA Computer Science & IT',
-      startDate: 'September 2021',
-      endDate: 'May 2024',
-      duration: '3 years',
-      location: 'Chicopee, MA',
-    }
   ];
   return (
     <motion.section

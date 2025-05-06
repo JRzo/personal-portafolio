@@ -1,14 +1,12 @@
 import { motion } from 'framer-motion';
 import {
   IconCodeCircle,
-  IconBrandJavascript,
   IconBrandReact,
-  IconBrandNodejs,
-  IconBrandMongodb,
+  IconBrandNextjs,
+  IconBrandVue,
   IconBrandNuxt,
-  IconBrandBootstrap,
+  IconBrandSvelte,
   IconBrandTailwind,
-  IconBrandAws
 } from '@tabler/icons-react';
 import { SectionMotion } from '../common/motion/Section';
 import { SectionHeader } from '../components/SectionHeader';
@@ -19,15 +17,12 @@ export const Skills = () => {
   const sectionDescription = 'List of my skills';
   // mockup skills data
   const skills = [
-    { label: 'React', icon: <IconBrandReact /> },
-    { label: 'JavaScript', icon: <IconBrandJavascript /> },
-    { label: 'Node Js', icon: <IconBrandNodejs /> },
-    { label: 'Express Js', icon: <IconBrandNodejs /> },
+    { label: 'React Js', icon: <IconBrandReact /> },
+    { label: 'Next Js', icon: <IconBrandNextjs /> },
+    { label: 'Vue Js', icon: <IconBrandVue /> },
     { label: 'Nuxt Js', icon: <IconBrandNuxt /> },
-    { label: 'Mongo DB', icon: <IconBrandMongodb /> },
+    { label: 'Svelte Js', icon: <IconBrandSvelte /> },
     { label: 'Tailwind CSS', icon: <IconBrandTailwind /> },
-    { label: 'Bootstrapt', icon: <IconBrandBootstrap /> },
-    { label: 'Aws', icon: <IconBrandAws /> }
   ];
   return (
     <motion.section

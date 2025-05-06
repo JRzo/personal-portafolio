@@ -11,34 +11,24 @@ export const Experience = () => {
   const experiences = [
     {
       id: 1,
-      image: 'https://pbs.twimg.com/profile_images/559714005728505856/weFtnHg9_400x400.png',
-      name: 'Resilent Coders',
-      position: 'Software Engineer',
-      startDate: 'Janaury 2025',
+      image: '/vite.svg',
+      name: 'X Code',
+      position: 'Frontend Developer',
+      startDate: 'Mar 2022',
       endDate: 'Present',
-      duration: '5 Months',
-      location: 'Boston, MA',
+      duration: '3 Months',
+      location: 'Jakarta',
     },
     {
       id: 2,
-      image: 'https://www.massmutualfcuhb.org/wp-content/themes/ncr-child-theme/images/logo.png',
-      name: 'MassMutual Federal Credit Union',
-      position: 'IT Analyst',
-      startDate: 'September 2024',
-      endDate: 'December 2024',
-      duration: '4 Months',
-      location: 'Springfield, MA',
+      image: '/vite.svg',
+      name: 'Y Code',
+      position: 'Backend Developer',
+      startDate: 'Mar 2021',
+      endDate: 'Februari 2022',
+      duration: '11 Months',
+      location: 'Bandung',
     },
-    {
-      id: 3,
-      image: 'https://leehamnews.com/wp-content/uploads/2019/02/Collins-Aerospace.jpeg',
-      name: 'Collins Aerospace',
-      position: 'T2 Deskptop Support',
-      startDate: 'May 2024',
-      endDate: 'September 2024',
-      duration: '6 Months',
-      location: 'Windsor Locks, CT',
-    }
   ];
   return (
     <motion.section
