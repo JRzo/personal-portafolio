@@ -10,33 +10,21 @@ export const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
+      name: 'Basketball Predicitons',
+      image: '/nbapredictions.png',
+      link: 'https://basketball-prediction-b13e6353873b.herokuapp.com/',
     },
     {
       id: 2,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
+      name: 'Contact Book',
+      image: '/contactBook.png',
+      link: 'https://contact-book-app-65fbe047d847.herokuapp.com/profile',
     },
     {
       id: 12,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
-    },
-    {
-      id: 13,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
-    },
-    {
-      id: 15,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
+      name: 'Resource Tracker',
+      image: '/resourceTracker.png',
+      link: 'https://resource-tracker-1574ccab6559.herokuapp.com/profile',
     },
   ];
   return (

@@ -4,26 +4,21 @@ import { MediaBarMotion } from '../common/motion/MediaBar';
 import {
   IconBrandCampaignmonitor,
   IconBrandGithub,
-  IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandWhatsapp,
 } from '@tabler/icons-react';
 
 export const MediaBar = () => {
   const media = [
-    { icon: <IconBrandGithub />, link: 'https://github.com/Bayusetiawan45' },
+    { icon: <IconBrandGithub />, link: 'https://github.com/JRzo' },
     {
       icon: <IconBrandLinkedin />,
-      link: 'https://www.linkedin.com/in/bayu-setiawan99/',
+      link: 'https://www.linkedin.com/in/juliorodriguezpena/',
     },
-    {
-      icon: <IconBrandInstagram />,
-      link: 'https://www.instagram.com/bayustr__/',
-    },
-    { icon: <IconBrandWhatsapp />, link: 'https://wa.me/+62887676546' },
+    { icon: <IconBrandWhatsapp />, link: 'https://wa.me/+4134799607' },
     {
       icon: <IconBrandCampaignmonitor />,
-      link: 'mailto:bayusetiawanipb@gmail.com',
+      link: 'mailto:juliosoftwaredev@gmail.com',
     },
   ];
   const { container } = MediaBarMotion;

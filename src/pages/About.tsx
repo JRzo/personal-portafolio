@@ -19,31 +19,14 @@ export const About = () => {
         description={sectionDescription}
       />
       <div className="flex gap-2 text-md lg:text-xl font-medium">
-        <h2 className="font-semibold">Hello, i'm Bayu</h2>
+        <h2 className="font-semibold">Hello, I'm Julio</h2>
         <div className="ml-1 animate-waving-hand">👋</div>
       </div>
       <p>
-        I am Software Engineer proficient in TypeScript and well-versed in
-        popular frameworks such as React JS, Next JS, Vue JS, and Nuxt Js. Not
-        just coding. I am passionate about creating clean and efficient code,
-        automating testing code, and implementing modern design principles to
-        deliver intuitive user experiences. With my technical expertise, I am
-        able to create highly performant and elegant solutions that are easy to
-        maintain and scale. I am always eager to learn new technologies and
-        improve my skills
+      As a Software Engineer proficient in TypeScript and well-versed in popular frameworks such as React JS. I bring more than just coding skills to the table. I am passionate about architecting and implementing scalable application architectures, carefully considering components, interfaces, data models, flows, and security designs to build robust web applications. My full-stack development expertise allows me to design, develop, and deploy high-quality web applications, leveraging Javascript and ReactJS (frontend) and crafting reusable UI components. 
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sequi
-        officiis quas, facilis molestiae adipisci reprehenderit itaque alias
-        atque tempora odit perferendis, nulla voluptatem quo voluptatum enim
-        expedita, numquam nemo! Vel necessitatibus provident fugiat asperiores
-        velit? Illum amet cum dignissimos? Quo perferendis vitae eos dolores
-        sunt delectus voluptate ab omnis asperiores dicta, dolor reprehenderit
-        blanditiis et a quod esse. Aut omnis rerum distinctio ducimus animi
-        delectus eum architecto voluptatem, tenetur labore eveniet aliquid
-        voluptas facere culpa autem saepe veniam enim et modi minus quod beatae
-        voluptatibus libero blanditiis. Harum ratione quod sunt vero quisquam
-        iste accusantium numquam distinctio. Recusandae, aut!
+      I am also experienced in designing and developing efficient RESTful APIs utilizing PostgreSQL and MongoDB. Beyond development, I am committed to ensuring code excellence through rigorous unit and integration testing, active participation in code reviews, and diligent debugging across the entire stack. I thrive in collaborative environments, working effectively with designers, product managers, and other developers to deliver high-quality software solutions that truly align with business needs. My technical expertise enables me to create highly performant and elegant solutions that are not only easy to maintain and scale but also deliver intuitive user experiences through the implementation of modern design principles. I am always eager to learn new technologies and continuously improve my skills to contribute innovative solutions.
       </p>
     </motion.section>
   );
